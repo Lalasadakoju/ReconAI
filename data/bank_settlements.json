@@ -1,0 +1,807 @@
+[
+    {
+        "bank_reference": "BNK0001",
+        "customer_id": "CUST002",
+        "amount": 5000,
+        "timestamp": "2026-09-02T09:49:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0002",
+        "customer_id": "CUST035",
+        "amount": 499,
+        "timestamp": "2026-09-01T23:27:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0003",
+        "customer_id": "CUST006",
+        "amount": 199,
+        "timestamp": "2026-09-01T13:37:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0004",
+        "customer_id": "CUST036",
+        "amount": 2500,
+        "timestamp": "2026-09-01T13:19:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0005",
+        "customer_id": "CUST015",
+        "amount": 2000,
+        "timestamp": "2026-09-03T18:34:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0006",
+        "customer_id": "CUST028",
+        "amount": 199,
+        "timestamp": "2026-09-02T06:57:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0007",
+        "customer_id": "CUST007",
+        "amount": 599,
+        "timestamp": "2026-09-03T07:04:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0008",
+        "customer_id": "CUST039",
+        "amount": 999,
+        "timestamp": "2026-09-03T08:00:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0009",
+        "customer_id": "CUST025",
+        "amount": 1500,
+        "timestamp": "2026-09-02T02:21:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0010",
+        "customer_id": "CUST037",
+        "amount": 5000,
+        "timestamp": "2026-09-03T10:27:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0011",
+        "customer_id": "CUST019",
+        "amount": 199,
+        "timestamp": "2026-09-02T17:01:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNKDUP0011",
+        "customer_id": "CUST019",
+        "amount": 199,
+        "timestamp": "2026-09-02T17:06:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0012",
+        "customer_id": "CUST025",
+        "amount": 599,
+        "timestamp": "2026-09-01T23:28:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0013",
+        "customer_id": "CUST024",
+        "amount": 999,
+        "timestamp": "2026-09-02T07:55:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0014",
+        "customer_id": "CUST039",
+        "amount": 800,
+        "timestamp": "2026-09-01T19:19:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0015",
+        "customer_id": "CUST025",
+        "amount": 499,
+        "timestamp": "2026-09-04T01:06:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0016",
+        "customer_id": "CUST021",
+        "amount": 5000,
+        "timestamp": "2026-09-02T18:53:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0017",
+        "customer_id": "CUST021",
+        "amount": 599,
+        "timestamp": "2026-09-01T13:27:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0018",
+        "customer_id": "CUST014",
+        "amount": 601,
+        "timestamp": "2026-09-03T04:23:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0019",
+        "customer_id": "CUST009",
+        "amount": 499,
+        "timestamp": "2026-09-02T21:45:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0020",
+        "customer_id": "CUST038",
+        "amount": 2000,
+        "timestamp": "2026-09-02T21:30:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0021",
+        "customer_id": "CUST015",
+        "amount": 1200,
+        "timestamp": "2026-09-03T10:34:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNKDUP0021",
+        "customer_id": "CUST015",
+        "amount": 1200,
+        "timestamp": "2026-09-03T10:39:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0022",
+        "customer_id": "CUST006",
+        "amount": 2000,
+        "timestamp": "2026-09-04T10:06:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0023",
+        "customer_id": "CUST028",
+        "amount": 501,
+        "timestamp": "2026-09-02T07:15:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0024",
+        "customer_id": "CUST034",
+        "amount": 2500,
+        "timestamp": "2026-09-04T01:30:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0025",
+        "customer_id": "CUST035",
+        "amount": 199,
+        "timestamp": "2026-09-03T00:30:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0026",
+        "customer_id": "CUST019",
+        "amount": 999,
+        "timestamp": "2026-09-02T00:43:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0027",
+        "customer_id": "CUST033",
+        "amount": 199,
+        "timestamp": "2026-09-03T02:34:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0028",
+        "customer_id": "CUST033",
+        "amount": 4998,
+        "timestamp": "2026-09-03T01:54:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0029",
+        "customer_id": "CUST039",
+        "amount": 499,
+        "timestamp": "2026-09-01T09:06:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0030",
+        "customer_id": "CUST020",
+        "amount": 299,
+        "timestamp": "2026-09-03T10:49:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0031",
+        "customer_id": "CUST006",
+        "amount": 2500,
+        "timestamp": "2026-09-02T00:06:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0032",
+        "customer_id": "CUST009",
+        "amount": 2001,
+        "timestamp": "2026-09-02T02:46:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0034",
+        "customer_id": "CUST026",
+        "amount": 599,
+        "timestamp": "2026-09-03T04:15:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNKDUP0034",
+        "customer_id": "CUST026",
+        "amount": 599,
+        "timestamp": "2026-09-03T04:20:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0035",
+        "customer_id": "CUST034",
+        "amount": 999,
+        "timestamp": "2026-09-03T21:04:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0036",
+        "customer_id": "CUST022",
+        "amount": 599,
+        "timestamp": "2026-09-01T18:20:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0037",
+        "customer_id": "CUST001",
+        "amount": 599,
+        "timestamp": "2026-09-02T15:45:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0039",
+        "customer_id": "CUST033",
+        "amount": 999,
+        "timestamp": "2026-09-01T19:23:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0040",
+        "customer_id": "CUST035",
+        "amount": 1500,
+        "timestamp": "2026-09-02T15:15:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0041",
+        "customer_id": "CUST016",
+        "amount": 2500,
+        "timestamp": "2026-09-04T17:25:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0042",
+        "customer_id": "CUST007",
+        "amount": 601,
+        "timestamp": "2026-09-01T22:15:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0043",
+        "customer_id": "CUST004",
+        "amount": 1199,
+        "timestamp": "2026-09-04T01:27:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0044",
+        "customer_id": "CUST022",
+        "amount": 199,
+        "timestamp": "2026-09-04T02:27:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0045",
+        "customer_id": "CUST035",
+        "amount": 599,
+        "timestamp": "2026-09-02T11:26:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0046",
+        "customer_id": "CUST030",
+        "amount": 499,
+        "timestamp": "2026-09-03T00:01:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0047",
+        "customer_id": "CUST036",
+        "amount": 299,
+        "timestamp": "2026-09-03T22:12:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0049",
+        "customer_id": "CUST027",
+        "amount": 599,
+        "timestamp": "2026-09-02T07:56:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0050",
+        "customer_id": "CUST011",
+        "amount": 1200,
+        "timestamp": "2026-09-01T17:25:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0051",
+        "customer_id": "CUST019",
+        "amount": 799,
+        "timestamp": "2026-09-03T23:54:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0052",
+        "customer_id": "CUST010",
+        "amount": 2000,
+        "timestamp": "2026-09-04T03:40:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0053",
+        "customer_id": "CUST021",
+        "amount": 199,
+        "timestamp": "2026-09-01T17:57:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0054",
+        "customer_id": "CUST034",
+        "amount": 1500,
+        "timestamp": "2026-09-04T06:12:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0055",
+        "customer_id": "CUST005",
+        "amount": 300,
+        "timestamp": "2026-09-02T11:06:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0056",
+        "customer_id": "CUST037",
+        "amount": 1200,
+        "timestamp": "2026-09-02T02:01:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0057",
+        "customer_id": "CUST027",
+        "amount": 197,
+        "timestamp": "2026-09-01T20:48:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0058",
+        "customer_id": "CUST021",
+        "amount": 799,
+        "timestamp": "2026-09-02T13:19:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0059",
+        "customer_id": "CUST030",
+        "amount": 499,
+        "timestamp": "2026-09-03T02:46:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0060",
+        "customer_id": "CUST030",
+        "amount": 298,
+        "timestamp": "2026-09-01T10:53:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0061",
+        "customer_id": "CUST033",
+        "amount": 299,
+        "timestamp": "2026-09-02T15:06:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0062",
+        "customer_id": "CUST016",
+        "amount": 999,
+        "timestamp": "2026-09-01T18:34:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0063",
+        "customer_id": "CUST040",
+        "amount": 1500,
+        "timestamp": "2026-09-03T03:10:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNKDUP0063",
+        "customer_id": "CUST040",
+        "amount": 1500,
+        "timestamp": "2026-09-03T03:15:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0064",
+        "customer_id": "CUST036",
+        "amount": 5000,
+        "timestamp": "2026-09-01T10:47:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0065",
+        "customer_id": "CUST017",
+        "amount": 299,
+        "timestamp": "2026-09-02T03:27:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0066",
+        "customer_id": "CUST018",
+        "amount": 2000,
+        "timestamp": "2026-09-02T06:27:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0067",
+        "customer_id": "CUST017",
+        "amount": 999,
+        "timestamp": "2026-09-02T13:04:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0068",
+        "customer_id": "CUST028",
+        "amount": 199,
+        "timestamp": "2026-09-01T23:43:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0069",
+        "customer_id": "CUST017",
+        "amount": 999,
+        "timestamp": "2026-09-02T03:20:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0070",
+        "customer_id": "CUST036",
+        "amount": 2000,
+        "timestamp": "2026-09-03T19:28:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0071",
+        "customer_id": "CUST024",
+        "amount": 501,
+        "timestamp": "2026-09-01T14:05:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0072",
+        "customer_id": "CUST020",
+        "amount": 499,
+        "timestamp": "2026-09-01T15:42:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0073",
+        "customer_id": "CUST014",
+        "amount": 198,
+        "timestamp": "2026-09-03T10:34:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0074",
+        "customer_id": "CUST040",
+        "amount": 999,
+        "timestamp": "2026-09-04T02:33:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0075",
+        "customer_id": "CUST027",
+        "amount": 499,
+        "timestamp": "2026-09-02T09:58:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0076",
+        "customer_id": "CUST016",
+        "amount": 999,
+        "timestamp": "2026-09-03T18:03:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0078",
+        "customer_id": "CUST030",
+        "amount": 599,
+        "timestamp": "2026-09-02T13:07:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0079",
+        "customer_id": "CUST002",
+        "amount": 597,
+        "timestamp": "2026-09-02T15:52:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0080",
+        "customer_id": "CUST018",
+        "amount": 799,
+        "timestamp": "2026-09-01T19:01:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0081",
+        "customer_id": "CUST002",
+        "amount": 1200,
+        "timestamp": "2026-09-03T06:29:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0082",
+        "customer_id": "CUST003",
+        "amount": 499,
+        "timestamp": "2026-09-02T21:42:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0083",
+        "customer_id": "CUST028",
+        "amount": 998,
+        "timestamp": "2026-09-03T04:22:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0084",
+        "customer_id": "CUST017",
+        "amount": 1200,
+        "timestamp": "2026-09-02T11:25:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0085",
+        "customer_id": "CUST035",
+        "amount": 200,
+        "timestamp": "2026-09-04T08:47:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0087",
+        "customer_id": "CUST008",
+        "amount": 999,
+        "timestamp": "2026-09-03T23:09:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0088",
+        "customer_id": "CUST021",
+        "amount": 799,
+        "timestamp": "2026-09-03T17:04:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0089",
+        "customer_id": "CUST013",
+        "amount": 2000,
+        "timestamp": "2026-09-02T02:47:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0090",
+        "customer_id": "CUST040",
+        "amount": 4999,
+        "timestamp": "2026-09-02T09:11:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0091",
+        "customer_id": "CUST014",
+        "amount": 799,
+        "timestamp": "2026-09-03T00:48:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0092",
+        "customer_id": "CUST030",
+        "amount": 2500,
+        "timestamp": "2026-09-03T05:43:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0093",
+        "customer_id": "CUST031",
+        "amount": 599,
+        "timestamp": "2026-09-04T14:34:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0094",
+        "customer_id": "CUST019",
+        "amount": 5000,
+        "timestamp": "2026-09-01T21:15:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0095",
+        "customer_id": "CUST006",
+        "amount": 2500,
+        "timestamp": "2026-09-03T16:46:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0096",
+        "customer_id": "CUST015",
+        "amount": 5000,
+        "timestamp": "2026-09-03T06:12:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0097",
+        "customer_id": "CUST031",
+        "amount": 198,
+        "timestamp": "2026-09-02T19:15:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0098",
+        "customer_id": "CUST037",
+        "amount": 1500,
+        "timestamp": "2026-09-03T18:20:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0099",
+        "customer_id": "CUST026",
+        "amount": 1200,
+        "timestamp": "2026-09-04T05:11:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0100",
+        "customer_id": "CUST028",
+        "amount": 199,
+        "timestamp": "2026-09-02T00:25:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0101",
+        "customer_id": "CUST004",
+        "amount": 1999,
+        "timestamp": "2026-09-04T01:24:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0102",
+        "customer_id": "CUST030",
+        "amount": 1498,
+        "timestamp": "2026-09-02T03:48:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0103",
+        "customer_id": "CUST028",
+        "amount": 1500,
+        "timestamp": "2026-09-04T23:08:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0104",
+        "customer_id": "CUST029",
+        "amount": 499,
+        "timestamp": "2026-09-04T02:04:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0105",
+        "customer_id": "CUST034",
+        "amount": 5000,
+        "timestamp": "2026-09-02T23:07:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0106",
+        "customer_id": "CUST005",
+        "amount": 799,
+        "timestamp": "2026-09-04T08:19:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0107",
+        "customer_id": "CUST035",
+        "amount": 999,
+        "timestamp": "2026-09-03T04:49:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0108",
+        "customer_id": "CUST010",
+        "amount": 599,
+        "timestamp": "2026-09-04T05:26:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0109",
+        "customer_id": "CUST035",
+        "amount": 1200,
+        "timestamp": "2026-09-03T06:14:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0111",
+        "customer_id": "CUST037",
+        "amount": 2500,
+        "timestamp": "2026-09-01T11:41:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0113",
+        "customer_id": "CUST032",
+        "amount": 1200,
+        "timestamp": "2026-09-02T15:34:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0114",
+        "customer_id": "CUST025",
+        "amount": 1500,
+        "timestamp": "2026-09-01T13:41:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0116",
+        "customer_id": "CUST026",
+        "amount": 2499,
+        "timestamp": "2026-09-01T13:23:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0118",
+        "customer_id": "CUST017",
+        "amount": 499,
+        "timestamp": "2026-09-01T16:05:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0119",
+        "customer_id": "CUST022",
+        "amount": 1500,
+        "timestamp": "2026-09-03T17:06:00",
+        "status": "SETTLED"
+    },
+    {
+        "bank_reference": "BNK0120",
+        "customer_id": "CUST006",
+        "amount": 1200,
+        "timestamp": "2026-09-02T20:14:00",
+        "status": "SETTLED"
+    }
+]

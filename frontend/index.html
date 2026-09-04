@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>ReconAI | Financial Intelligence</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         MOBILE SIDEBAR BUTTON
+    ========================== -->
+
+    <button
+        class="sidebar-toggle"
+        id="sidebarToggle"
+        aria-label="Open navigation"
+    >
+        ☰
+    </button>
+
+
+    <!-- =========================
+         SIDEBAR
+    ========================== -->
+
+    <aside
+        class="sidebar"
+        id="sidebar"
+    >
+
+        <!-- LOGO -->
+
+        <div class="sidebar-logo">
+
+            <div class="sidebar-logo-icon">
+                R
+            </div>
+
+            <div class="sidebar-logo-text">
+
+                <h2>
+                    ReconAI
+                </h2>
+
+                <span>
+                    Financial Intelligence
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="sidebar-nav">
+
+
+            <a
+                href="#dashboard"
+                class="nav-item active"
+            >
+                <span class="nav-icon">
+                    📊
+                </span>
+
+                Dashboard
+            </a>
+
+
+            <a
+                href="#command-center"
+                class="nav-item"
+            >
+                <span class="nav-icon">
+                    🔥
+                </span>
+
+                Command Center
+            </a>
+
+
+            <a
+                href="#action-plan"
+                class="nav-item"
+            >
+                <span class="nav-icon">
+                    🤖
+                </span>
+
+                AI Action Plan
+            </a>
+
+
+            <a
+                href="#priority-queue"
+                class="nav-item"
+            >
+                <span class="nav-icon">
+                    🔥
+                </span>
+
+                Priority Queue
+            </a>
+
+
+            <a
+                href="#transactions"
+                class="nav-item"
+            >
+                <span class="nav-icon">
+                    📋
+                </span>
+
+                Transactions
+            </a>
+
+
+            <a
+                href="#exceptions"
+                class="nav-item"
+            >
+                <span class="nav-icon">
+                    ⚠️
+                </span>
+
+                Exceptions
+            </a>
+
+
+            <a
+                href="#investigation"
+                class="nav-item"
+            >
+                <span class="nav-icon">
+                    🔎
+                </span>
+
+                Investigation
+            </a>
+
+
+            <a
+                href="#audit"
+                class="nav-item"
+            >
+                <span class="nav-icon">
+                    🧠
+                </span>
+
+                Audit Trail
+            </a>
+
+
+        </nav>
+
+
+        <!-- SIDEBAR FOOTER -->
+
+        <div class="sidebar-footer">
+
+            <div class="system-online">
+
+                <span class="online-dot"></span>
+
+                System Online
+
+            </div>
+
+        </div>
+
+
+    </aside>
+
+
+    <!-- =========================
+         MAIN APPLICATION
+    ========================== -->
+
+    <div class="app-wrapper">
+
+
+        <!-- =========================
+             NAVBAR
+        ========================== -->
+
+        <header class="navbar">
+
+            <div class="mobile-brand">
+
+                <div class="logo-icon">
+                    R
+                </div>
+
+                <strong>
+                    ReconAI
+                </strong>
+
+            </div>
+
+
+            <div class="nav-status">
+
+                <span class="status-dot"></span>
+
+                AI System Online
+
+            </div>
+
+
+        </header>
+
+
+        <!-- =========================
+             MAIN CONTENT
+        ========================== -->
+
+        <main class="container">
+
+
+            <!-- =========================
+                 DASHBOARD
+            ========================== -->
+
+            <section id="dashboard">
+
+
+                <div class="hero">
+
+
+                    <div>
+
+                        <p class="eyebrow">
+                            AI-POWERED FINANCE OPERATIONS
+                        </p>
+
+
+                        <h2>
+
+                            Intelligent Financial
+
+                            <br>
+
+                            <span>
+                                Reconciliation.
+                            </span>
+
+                        </h2>
+
+
+                        <p class="hero-description">
+
+                            Automatically match payment gateway
+                            transactions with bank settlements using
+                            confidence-based intelligent reconciliation.
+
+                        </p>
+
+                    </div>
+
+
+                    <button
+                        class="run-button"
+                        id="runButton"
+                    >
+
+                        <span id="buttonIcon">
+                            ▶
+                        </span>
+
+                        <span id="buttonText">
+                            Run Reconciliation
+                        </span>
+
+                    </button>
+
+
+                </div>
+
+
+                <!-- STATUS -->
+
+                <div
+                    class="status-message"
+                    id="statusMessage"
+                >
+
+                    Ready to analyze financial records.
+
+                </div>
+
+
+                <!-- METRICS -->
+
+                <div class="metrics-grid">
+
+
+                    <div class="metric-card">
+
+                        <p class="metric-label">
+                            Total Records
+                        </p>
+
+                        <h3
+                            class="metric-value"
+                            id="totalRecords"
+                        >
+                            —
+                        </h3>
+
+                        <span class="metric-footer">
+                            Transactions analyzed
+                        </span>
+
+                    </div>
+
+
+                    <div
+                        class="metric-card success-card"
+                    >
+
+                        <p class="metric-label">
+                            Auto Matched
+                        </p>
+
+                        <h3
+                            class="metric-value"
+                            id="matchedRecords"
+                        >
+                            —
+                        </h3>
+
+                        <span class="metric-footer">
+                            High confidence matches
+                        </span>
+
+                    </div>
+
+
+                    <div
+                        class="metric-card warning-card"
+                    >
+
+                        <p class="metric-label">
+                            Manual Review
+                        </p>
+
+                        <h3
+                            class="metric-value"
+                            id="manualReview"
+                        >
+                            —
+                        </h3>
+
+                        <span class="metric-footer">
+                            Requires verification
+                        </span>
+
+                    </div>
+
+
+                    <div
+                        class="metric-card danger-card"
+                    >
+
+                        <p class="metric-label">
+                            Exceptions
+                        </p>
+
+                        <h3
+                            class="metric-value"
+                            id="unresolvedRecords"
+                        >
+                            —
+                        </h3>
+
+                        <span class="metric-footer">
+                            Unresolved transactions
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+            <!-- =========================
+                 COMMAND CENTER
+            ========================== -->
+
+            <section
+                class="command-center"
+                id="command-center"
+            >
+
+
+                <div class="section-header">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            FINANCIAL INTELLIGENCE
+                        </p>
+
+                        <h2>
+                            Financial Command Center
+                        </h2>
+
+                    </div>
+
+
+                    <span class="result-count">
+                        AI PRIORITY ENGINE
+                    </span>
+
+
+                </div>
+
+
+                <div class="financial-grid">
+
+
+                    <div class="financial-card">
+
+                        <p>
+                            TOTAL PROCESSED
+                        </p>
+
+                        <h3
+                            id="totalProcessedAmount"
+                        >
+                            ₹0
+                        </h3>
+
+                        <span>
+                            Entire reconciliation batch
+                        </span>
+
+                    </div>
+
+
+                    <div class="financial-card">
+
+                        <p>
+                            SUCCESSFULLY RECONCILED
+                        </p>
+
+                        <h3
+                            id="reconciledAmount"
+                        >
+                            ₹0
+                        </h3>
+
+                        <span>
+                            Automatically verified
+                        </span>
+
+                    </div>
+
+
+                    <div class="financial-card">
+
+                        <p>
+                            AMOUNT UNDER REVIEW
+                        </p>
+
+                        <h3
+                            id="amountUnderReview"
+                        >
+                            ₹0
+                        </h3>
+
+                        <span>
+                            Requires financial attention
+                        </span>
+
+                    </div>
+
+
+                    <div class="financial-card">
+
+                        <p>
+                            HIGH PRIORITY CASES
+                        </p>
+
+                        <h3
+                            id="highPriorityCases"
+                        >
+                            0
+                        </h3>
+
+                        <span>
+                            Ranked for immediate action
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- AGENT RECOMMENDATION -->
+
+                <div class="ai-action-center">
+
+
+                    <div class="ai-action-icon">
+                        🤖
+                    </div>
+
+
+                    <div>
+
+                        <p class="eyebrow">
+                            AGENT RECOMMENDATION
+                        </p>
+
+                        <h3
+                            id="agentRecommendation"
+                        >
+
+                            Run reconciliation to receive an
+                            AI-generated financial recommendation.
+
+                        </h3>
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+            <!-- =========================
+                 ACTION PLAN
+            ========================== -->
+
+            <section
+                class="action-plan-container"
+                id="action-plan"
+            >
+
+
+                <div class="action-plan-header">
+
+
+                    <div>
+
+                        <p class="eyebrow">
+                            AI ACTION PLAN
+                        </p>
+
+                        <h2>
+                            What Should Finance Do Next?
+                        </h2>
+
+                    </div>
+
+
+                    <span
+                        class="batch-status"
+                        id="batchStatus"
+                    >
+                        READY
+                    </span>
+
+
+                </div>
+
+
+                <!-- EXECUTIVE RECOMMENDATION -->
+
+                <div
+                    class="executive-recommendation"
+                >
+
+
+                    <div class="recommendation-icon">
+                        🤖
+                    </div>
+
+
+                    <div>
+
+                        <p class="eyebrow">
+                            EXECUTIVE RECOMMENDATION
+                        </p>
+
+                        <h3
+                            id="executiveRecommendation"
+                        >
+
+                            Run reconciliation to generate
+                            an action plan.
+
+                        </h3>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- ACTION COLUMNS -->
+
+                <div class="action-grid">
+
+
+                    <div class="action-column">
+
+                        <h3>
+                            🔥 Immediate Actions
+                        </h3>
+
+                        <div
+                            class="action-items"
+                            id="immediateActions"
+                        >
+
+                            <p class="action-empty">
+                                No actions yet.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="action-column">
+
+                        <h3>
+                            👀 Monitor
+                        </h3>
+
+                        <div
+                            class="action-items"
+                            id="monitoringActions"
+                        >
+
+                            <p class="action-empty">
+                                No actions yet.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="action-column">
+
+                        <h3>
+                            🔎 Manual Review
+                        </h3>
+
+                        <div
+                            class="action-items"
+                            id="manualReviewActions"
+                        >
+
+                            <p class="action-empty">
+                                No actions yet.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+            <!-- =========================
+                 PRIORITY QUEUE
+            ========================== -->
+
+            <section
+                id="priority-queue"
+            >
+
+
+                <div class="priority-header">
+
+                    <p class="eyebrow">
+                        REQUIRES ATTENTION
+                    </p>
+
+                    <h2>
+                        Priority Queue
+                    </h2>
+
+                </div>
+
+
+                <div
+                    class="priority-list"
+                    id="priorityList"
+                >
+
+                    <div class="empty-exception">
+
+                        Run reconciliation to identify
+                        financial priorities.
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+
+            <!-- =========================
+                 PERFORMANCE
+            ========================== -->
+
+            <section
+                class="performance-section"
+            >
+
+
+                <div class="section-header">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            SYSTEM PERFORMANCE
+                        </p>
+
+                        <h2>
+                            Reconciliation Performance
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="performance-grid">
+
+
+                    <div class="performance-card">
+
+                        <p>
+                            Match Rate
+                        </p>
+
+                        <h3
+                            id="matchRate"
+                        >
+                            0%
+                        </h3>
+
+                        <div class="performance-bar">
+
+                            <div
+                                class="bar-fill"
+                                id="matchRateBar"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="performance-card">
+
+                        <p>
+                            Accuracy
+                        </p>
+
+                        <h3
+                            id="accuracy"
+                        >
+                            0%
+                        </h3>
+
+                        <div class="performance-bar">
+
+                            <div
+                                class="bar-fill"
+                                id="accuracyBar"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="performance-card">
+
+                        <p>
+                            Throughput
+                        </p>
+
+                        <h3
+                            id="throughput"
+                        >
+                            0
+                        </h3>
+
+                        <small>
+                            Records processed per second
+                        </small>
+
+                    </div>
+
+
+                </div>
+
+
+            </section>
+
+
+            <!-- =========================
+                 TRANSACTIONS
+            ========================== -->
+
+            <section
+                class="data-section"
+                id="transactions"
+            >
+
+
+                <div
+                    class="section-header transaction-header"
+                >
+
+
+                    <div>
+
+                        <p class="eyebrow">
+                            TRANSACTION DATA
+                        </p>
+
+                        <h2>
+                            Reconciliation Results
+                        </h2>
+
+                    </div>
+
+
+                    <div class="table-controls">
+
+
+                        <input
+                            type="text"
+                            id="searchInput"
+                            placeholder="Search transaction..."
+                        >
+
+
+                        <select
+                            id="decisionFilter"
+                        >
+
+                            <option value="ALL">
+                                All Decisions
+                            </option>
+
+                            <option value="MATCHED">
+                                Matched
+                            </option>
+
+                            <option value="MANUAL_REVIEW">
+                                Manual Review
+                            </option>
+
+                            <option value="UNRESOLVED">
+                                Unresolved
+                            </option>
+
+                        </select>
+
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="table-wrapper">
+
+
+                    <table>
+
+
+                        <thead>
+
+                            <tr>
+
+                                <th>
+                                    Transaction ID
+                                </th>
+
+                                <th>
+                                    Gateway Amount
+                                </th>
+
+                                <th>
+                                    Bank Reference
+                                </th>
+
+                                <th>
+                                    Confidence
+                                </th>
+
+                                <th>
+                                    Decision
+                                </th>
+
+                            </tr>
+
+                        </thead>
+
+
+                        <tbody
+                            id="resultsTableBody"
+                        >
+
+                            <tr class="empty-row">
+
+                                <td colspan="5">
+
+                                    Run reconciliation
+                                    to view transactions.
+
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+
+
+                    </table>
+
+
+                </div>
+
+
+                <div
+                    class="result-count"
+                    id="resultCount"
+                >
+
+                    0 transactions
+
+                </div>
+
+
+            </section>
+
+
+            <!-- =========================
+                 EXCEPTIONS
+            ========================== -->
+
+            <section
+                class="exceptions-section"
+                id="exceptions"
+            >
+
+
+                <div class="section-header">
+
+
+                    <div>
+
+                        <p class="eyebrow">
+                            REQUIRES ATTENTION
+                        </p>
+
+                        <h2>
+                            Exception Queue
+                        </h2>
+
+                    </div>
+
+
+                    <span
+                        class="result-count danger-count"
+                        id="exceptionCount"
+                    >
+                        0 requires attention
+                    </span>
+
+
+                </div>
+
+
+                <div
+                    class="exceptions-list"
+                    id="exceptionsList"
+                >
+
+                    <div class="empty-exception">
+
+                        No exceptions detected yet.
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+
+            <!-- =========================
+                 INVESTIGATION
+            ========================== -->
+
+            <section
+                class="investigation-section"
+                id="investigation"
+            >
+
+
+                <div class="section-header">
+
+
+                    <div>
+
+                        <p class="eyebrow">
+                            AI INVESTIGATION AGENT
+                        </p>
+
+                        <h2>
+                            Exception Investigation
+                        </h2>
+
+                    </div>
+
+
+                    <span
+                        class="result-count"
+                        id="investigationCount"
+                    >
+                        0 investigated
+                    </span>
+
+
+                </div>
+
+
+                <div
+                    class="investigation-list"
+                    id="investigationList"
+                >
+
+                    <div class="empty-exception">
+
+                        Run reconciliation to start
+                        AI investigations.
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+
+            <!-- =========================
+                 AUDIT TRAIL
+            ========================== -->
+
+            <section
+                class="audit-section"
+                id="audit"
+            >
+
+
+                <div class="audit-header">
+
+
+                    <div>
+
+                        <p class="eyebrow">
+                            TRANSPARENCY & EXPLAINABILITY
+                        </p>
+
+                        <h2>
+                            AI Audit Trail
+                        </h2>
+
+                    </div>
+
+
+                    <span class="audit-badge">
+
+                        AI Decision Log
+
+                    </span>
+
+
+                </div>
+
+
+                <div
+                    class="audit-trail"
+                    id="auditTrail"
+                >
+
+                    <div class="empty-exception">
+
+                        Run reconciliation to generate
+                        the audit trail.
+
+                    </div>
+
+                </div>
+
+
+            </section>
+
+
+        </main>
+
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+
+        <footer>
+
+            <span>
+                ReconAI Financial Intelligence
+            </span>
+
+            <span>
+                AI-Powered Financial Reconciliation
+            </span>
+
+        </footer>
+
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

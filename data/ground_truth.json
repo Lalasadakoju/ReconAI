@@ -1,0 +1,602 @@
+[
+    {
+        "transaction_id": "TXN0001",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0002",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0003",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0004",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0005",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0006",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0007",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0008",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0009",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0010",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0011",
+        "expected_status": "MATCHED",
+        "scenario": "duplicate_settlement"
+    },
+    {
+        "transaction_id": "TXN0012",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0013",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0014",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0015",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0016",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0017",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0018",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0019",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0020",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0021",
+        "expected_status": "MATCHED",
+        "scenario": "duplicate_settlement"
+    },
+    {
+        "transaction_id": "TXN0022",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0023",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0024",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0025",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0026",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0027",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0028",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0029",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0030",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0031",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0032",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0033",
+        "expected_status": "UNRESOLVED",
+        "scenario": "missing_settlement"
+    },
+    {
+        "transaction_id": "TXN0034",
+        "expected_status": "MATCHED",
+        "scenario": "duplicate_settlement"
+    },
+    {
+        "transaction_id": "TXN0035",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0036",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0037",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0038",
+        "expected_status": "UNRESOLVED",
+        "scenario": "missing_settlement"
+    },
+    {
+        "transaction_id": "TXN0039",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0040",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0041",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0042",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0043",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0044",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0045",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0046",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0047",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0048",
+        "expected_status": "UNRESOLVED",
+        "scenario": "missing_settlement"
+    },
+    {
+        "transaction_id": "TXN0049",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0050",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0051",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0052",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0053",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0054",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0055",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0056",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0057",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0058",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0059",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0060",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0061",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0062",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0063",
+        "expected_status": "MATCHED",
+        "scenario": "duplicate_settlement"
+    },
+    {
+        "transaction_id": "TXN0064",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0065",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0066",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0067",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0068",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0069",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0070",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0071",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0072",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0073",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0074",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0075",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0076",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0077",
+        "expected_status": "UNRESOLVED",
+        "scenario": "missing_settlement"
+    },
+    {
+        "transaction_id": "TXN0078",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0079",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0080",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0081",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0082",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0083",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0084",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0085",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0086",
+        "expected_status": "UNRESOLVED",
+        "scenario": "missing_settlement"
+    },
+    {
+        "transaction_id": "TXN0087",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0088",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0089",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0090",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0091",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0092",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0093",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0094",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0095",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0096",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0097",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0098",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0099",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0100",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0101",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0102",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0103",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0104",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0105",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0106",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0107",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0108",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0109",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0110",
+        "expected_status": "UNRESOLVED",
+        "scenario": "missing_settlement"
+    },
+    {
+        "transaction_id": "TXN0111",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0112",
+        "expected_status": "UNRESOLVED",
+        "scenario": "missing_settlement"
+    },
+    {
+        "transaction_id": "TXN0113",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0114",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0115",
+        "expected_status": "UNRESOLVED",
+        "scenario": "missing_settlement"
+    },
+    {
+        "transaction_id": "TXN0116",
+        "expected_status": "MATCHED",
+        "scenario": "minor_amount_difference"
+    },
+    {
+        "transaction_id": "TXN0117",
+        "expected_status": "UNRESOLVED",
+        "scenario": "missing_settlement"
+    },
+    {
+        "transaction_id": "TXN0118",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    },
+    {
+        "transaction_id": "TXN0119",
+        "expected_status": "MATCHED",
+        "scenario": "delayed_settlement"
+    },
+    {
+        "transaction_id": "TXN0120",
+        "expected_status": "MATCHED",
+        "scenario": "exact_match"
+    }
+]
